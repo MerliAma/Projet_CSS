@@ -221,6 +221,7 @@ section hr{
     .btn-lien{
     padding: 10px 10px;
     margin-left: 20px;
+    margin-top: -5px;
     }
 }
 
@@ -229,6 +230,39 @@ section hr{
 #travail{
     background-color: var(--couleurSectionIntermediaire); /*rgba(240, 240, 240, 0.711);*/
     padding-top:20px;
+}
+
+.div-content-projet{
+    width: 50%;
+}
+
+.div-content-projet img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 999px) {
+    .div-content {
+        display: block;
+       
+    }
+
+    .div-content-projet {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+        text-align:ju;
+        align-items: center;
+    }
+
+    .div-content-projet img {
+        width: 60%;
+        height: auto;
+    }
 }
 
 /* Style pour le formulaire */
@@ -294,7 +328,7 @@ input[type="submit"]:hover{
 
 /* Style pour le footer*/
 footer{
-    background-color: rgba(240, 240, 240, 0.711);
+    background-color: rgb(240, 240, 240);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
