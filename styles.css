@@ -50,8 +50,8 @@
     justify-content: space-between;
     /*margin-bottom: 30px;*/
     background-color: var(--couleurSectionIntermediaire);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .hero-text{
@@ -95,15 +95,17 @@
 
 @media (max-width: 999px) {
     .navbar{
-    padding-right:5;
-    padding-left:5;
+    padding-right:5px;
+    padding-left:5px;
 }
 
-.navbar ul{
-    gap: 20px;
-}
+    .navbar ul{
+        gap: 20px;
+    }
     .hero {
         display: block;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .hero img {
@@ -113,7 +115,13 @@
 
 /* Style pour les sections */
 section{
-    padding: 30px;
+    padding: 70px;
+}
+
+@media (max-width: 999px) {
+    section {
+        padding: 30px;
+    }
 }
 
 section .div-title{
@@ -234,6 +242,8 @@ section hr{
 
 .div-content-projet{
     width: 50%;
+    justify-content: center;
+    margin-left: 50px;
 }
 
 .div-content-projet img{
@@ -242,6 +252,7 @@ section hr{
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 @media(max-width: 999px) {
@@ -252,11 +263,12 @@ section hr{
 
     .div-content-projet {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         display: flex;
         gap: 20px;
-        text-align:ju;
+        text-align: left;
         align-items: center;
+        margin-left: -30px;
     }
 
     .div-content-projet img {
