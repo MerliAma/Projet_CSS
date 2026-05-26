@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class="marges-globales">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#travail">Travail</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Hero -->
+    <div class="hero">
+        <div class="hero-text">
+            <span>Bonjour, je suis</span>
+            <h1>Ama Brou</h1>
+            <h3>Développeuse web</h3>
+            <p>Je conçois des sites web et des applications web fonctionnelles et esthétiques avec des technologies modernes et innovantes.</p>
+            <p>Bienvenue sur mon portfolio, où je partage mon parcours, mes compétences et mes réalisations.</p>
+        </div>
+        
+        <img src="images/Photo3.png">
+        
+    </div>
+
+    <!-- Section À propos -->
+    <section id="apropos">
+        <div class="div-title"><hr><h1 class="section-title">À Propos</h1></div>
+        <div class="div-content">
+            <div class="div-content-text">
+                <span>’’</span><!--<p>Mon approche du développement web est centrée sur l'utilisateur, en veillant à ce que chaque projet soit conçu pour offrir une expérience utilisateur optimale.</p> -->
+                <p>Je suis constamment à la recherche de nouvelles tendances et de meilleures pratiques pour améliorer mes compétences et offrir des solutions innovantes à mes clients.</p>
+            </div>
+            <div class="div-content-info">
+                <div class="div-content-info1">
+                    <label>Nom</label><span>Ama Brou</span>
+                    <label>Âge</label><span>29 ans</span>
+                    <label>Téléphone</label><span>(+225) 05 55 60 54 45</span>
+                </div>
+                <div class="div-content-info1">
+                    <label>Email</label><span>geneamabrou@gmail.com</span>
+                    <label>Localisation</label><span>Abidjan, Côte d'Ivoire</span> <br>
+                    <button class="btn-lien">Embauchez-moi</button>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="travail">
+        <div class="div-title"><h1 class="section-title">Travail</h1><hr></div>
+        
+    </section>
+
+    <!-- Section CV -->
+    <section id="cv">
+        <div class="div-title"><hr><h1 class="section-title">CV</h1></div>
+        <!--Description du CV --> 
+        <button class="btn-lien">Télecharger le CV</button>
+    </section>
+
+    <!-- Section contact-->
+    <section id="contact">
+            <form class="contact-form">
+                <h2>Contactez moi</h2>
+                <label>Nom : </label><br>
+                <input type="text" name="nom" placeholder="Entrez votre nom ici" required> <br><br>
+
+                <label>Prénom(s) : </label><br>
+                <input type="text" name="pnom" placeholder="Entrez le(s) prénom(s) ici" required><br><br>
+
+                <label>Télephone : </label><br>
+                <input type="tel" name="tel" pattern="[0-9]{10}" required placeholder="0707070707"><br><br>
+
+                <label>Email : </label><br>
+                <input type="email" name="email" placeholder="Entrez votre email ici" required><br><br>
+
+                <label>Commentaires : </label><br>
+                <textarea name="commentaire" cols="30" rows="5"> </textarea> <br><br>
+
+                <input type="submit" value="Envoyer">
+                
+            </form>
+    </section>
+
+    <!-- footer --> 
+    <footer>
+        <p>---- Portfolio Ama 2026 © Tous droits réservés ----</p>
+    </footer>
+</body>
+</html>
